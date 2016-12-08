@@ -84,7 +84,7 @@
 }
 
 - (UINavigationController *)navigationController {
-    UIViewController *rootViewController = [(id)[UIApplication sharedApplication].delegate keyWindow].rootViewController;
+    UIViewController *rootViewController = [(id)[UIApplication sharedApplication].delegate window].rootViewController;
     if ([rootViewController isKindOfClass:UINavigationController.class]) {
         return (UINavigationController *)rootViewController;
     }
@@ -104,7 +104,7 @@
 }
 
 - (void)showModalViewController:(UIViewController *)viewController {
-    UIViewController *parentViewController =  [(id)[UIApplication sharedApplication].delegate keyWindow].rootViewController;
+    UIViewController *parentViewController =  [(id)[UIApplication sharedApplication].delegate window].rootViewController;
     while (parentViewController.presentedViewController) {
         parentViewController = parentViewController.presentedViewController;
     }
@@ -124,7 +124,7 @@
 - (UINavigationController *)navigationControllerInTopModal:(BOOL)isInModal {
     UINavigationController *navigationController = nil;
     if (isInModal) {
-        UIViewController *topViewController =  [(id)[UIApplication sharedApplication].delegate keyWindow].rootViewController.presentedViewController;
+        UIViewController *topViewController =  [(id)[UIApplication sharedApplication].delegate window].rootViewController.presentedViewController;
         while (topViewController.presentedViewController) {
             topViewController = topViewController.presentedViewController;
         }

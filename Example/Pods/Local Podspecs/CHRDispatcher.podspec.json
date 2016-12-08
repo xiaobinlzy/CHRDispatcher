@@ -2,7 +2,7 @@
   "name": "CHRDispatcher",
   "version": "0.1.0",
   "summary": "Dispatcher是统一调用（跳转）组件。",
-  "description": "Dispatcher是统一调用（跳转）组件。",
+  "description": "Dispatcher是统一调用（跳转）组件，用于动态隐式的通讯、跳转、调用。",
   "homepage": "http://10.0.4.46:7990/scm/yd/chrdispatcher",
   "license": {
     "type": "MIT",
