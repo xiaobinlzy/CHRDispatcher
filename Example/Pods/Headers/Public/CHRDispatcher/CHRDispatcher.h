@@ -1,0 +1,1 @@
+../../../../../CHRDispatcher/Classes/CHRDispatcher.h

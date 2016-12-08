@@ -1,0 +1,35 @@
+{
+  "name": "CHRDispatcher",
+  "version": "0.1.0",
+  "summary": "Dispatcher是统一调用（跳转）组件。",
+  "description": "Dispatcher是统一调用（跳转）组件。",
+  "homepage": "http://10.0.4.46:7990/scm/yd/chrdispatcher",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaobinlzy": "xiaobinlzy@163.com"
+  },
+  "default_subspecs": "Binary",
+  "source": {
+    "git": "http://10.0.4.46:7990/scm/yd/chrdispatcher.git",
+    "tag": "0.1.0"
+  },
+  "public_header_files": "CHRDispatcher/Classes/*.h",
+  "source_files": "CHRDispatcher/Classes/*.h",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "Source",
+      "source_files": "CHRDispatcher/Classes/**",
+      "requires_arc": true
+    },
+    {
+      "name": "Binary",
+      "vendored_libraries": "libCHRDispatcher.a"
+    }
+  ]
+}
