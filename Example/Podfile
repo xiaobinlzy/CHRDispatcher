@@ -1,4 +1,3 @@
-use_frameworks!
 target 'CHRDispatcher_Tests' do
   pod 'CHRDispatcher', :path => '../'
   

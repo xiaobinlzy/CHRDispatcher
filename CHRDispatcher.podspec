@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CHRDispatcher'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CHRDispatcher.'
+  s.summary          = 'Dispatcher是统一调用（跳转）组件。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Dispatcher是统一调用（跳转）组件。
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/CHRDispatcher'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'http://10.0.4.46:7990/scm/yd/chrdispatcher'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiaobinlzy' => 'xiaobinlzy@163.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/CHRDispatcher.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.default_subspec  = 'Binary'
+  s.source  = { :git => 'http://10.0.4.46:7990/scm/yd/chrdispatcher.git', :tag => s.version.to_s }
+  s.public_header_files = 'Classes/*.h'
+  s.source_files = 'Classes/*.h'
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'CHRDispatcher/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CHRDispatcher' => ['CHRDispatcher/Assets/*.png']
-  # }
+  s.subspec 'Source' do |source| 
+    source.source_files = 'Classes/**'
+    source.requires_arc = true
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Binary' do |binary|
+    binary.vendored_libraries = 'libCHRDispatcher.a'
+  end
+  
 end

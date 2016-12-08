@@ -1,0 +1,16 @@
+PODS:
+  - CHRDispatcher (0.1.0)
+
+DEPENDENCIES:
+  - CHRDispatcher (from `../`)
+
+EXTERNAL SOURCES:
+  CHRDispatcher:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CHRDispatcher: c3cbacba12bf6b5791ae227e9151dcfb4c5f9fe2
+
+PODFILE CHECKSUM: a57f35b88d27cd98fff4f18147b291c7718ad590
+
+COCOAPODS: 1.1.1
