@@ -16,7 +16,7 @@
 @interface CHRABRouter : NSObject
 
 
-@property (copy, nonatomic) NSDictionary *transferRules;
+@property (copy, nonatomic) NSDictionary<NSString *, CHRABRouterModel *> *transferRules;
 
 //返回新的参数和路径
 - (NewPathAndParam *)transferForPath:(NSString *)path params:(NSDictionary *)params andCallback:(void (^)(NSDictionary *result))callback;
