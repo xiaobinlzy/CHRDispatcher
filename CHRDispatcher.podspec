@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHRDispatcher'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Dispatcher是统一调用（跳转）组件。'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,7 @@ Dispatcher是统一调用（跳转）组件，用于动态隐式的通讯、跳�
   s.subspec 'Binary' do |binary|
     binary.vendored_libraries = 'libCHRDispatcher.a'
   end
+
+  s.ios.framework = 'UIKit'
   
 end
