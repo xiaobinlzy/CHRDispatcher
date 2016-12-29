@@ -1,9 +1,9 @@
 {
   "name": "CHRDispatcher",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "Dispatcher是统一调用（跳转）组件。",
   "description": "Dispatcher是统一调用（跳转）组件，用于动态隐式的通讯、跳转、调用。",
-  "homepage": "http://10.0.4.46:7990/scm/yd/chrdispatcher",
+  "homepage": "http://gitlab.58corp.com/ChinaHR-iOS/CHRDispatcher",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,13 +13,16 @@
   },
   "default_subspecs": "Binary",
   "source": {
-    "git": "http://10.0.4.46:7990/scm/yd/chrdispatcher.git",
-    "tag": "0.1.0"
+    "git": "http://gitlab.58corp.com/ChinaHR-iOS/CHRDispatcher.git",
+    "tag": "0.1.3"
   },
   "public_header_files": "CHRDispatcher/Classes/*.h",
   "source_files": "CHRDispatcher/Classes/*.h",
   "platforms": {
     "ios": "8.0"
+  },
+  "ios": {
+    "frameworks": "UIKit"
   },
   "subspecs": [
     {
