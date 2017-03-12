@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Dispatcher是统一调用（跳转）组件，用于动态隐式的通讯、跳转、调用。
                        DESC
 
-  s.homepage         = 'http://gitlab.58corp.com/ChinaHR-iOS/CHRDispatcher'
+  s.homepage         = 'https://github.com/xiaobinlzy/CHRDispatcher'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xiaobinlzy' => 'xiaobinlzy@163.com' }
   s.default_subspec  = 'Binary'
-  s.source  = { :git => 'http://gitlab.58corp.com/ChinaHR-iOS/CHRDispatcher.git', :tag => s.version.to_s }
+  s.source  = { :git => 'git@github.com:xiaobinlzy/CHRDispatcher.git', :tag => s.version.to_s }
 
   s.public_header_files = 'CHRDispatcher/Classes/*.h'
   s.source_files = 'CHRDispatcher/Classes/*.h'
