@@ -9,14 +9,14 @@
 #import <Foundation/Foundation.h>
 
 
-@interface CHRABRouterModelParam : NSObject
+@interface CHRABRouterModelParam : NSObject <NSCoding>
 ;
 @property (nonatomic, copy) NSString *key;
 @property (nonatomic, copy) NSString *value;
 @end
 
 
-@interface CHRABRouterModel : NSObject
+@interface CHRABRouterModel : NSObject <NSCoding>
 
 @property (nonatomic, copy) NSString *originPath;
 @property (nonatomic, copy) NSString *targetPath;

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHRDispatcher'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Dispatcher是统一调用（跳转）组件。'
 
 # This description is used to generate tags and improve search results.
