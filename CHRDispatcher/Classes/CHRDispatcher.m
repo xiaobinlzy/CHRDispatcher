@@ -42,7 +42,7 @@
     if ( [path isEqualToString:@"goBack"] ) {
         [self.navigationController popViewControllerAnimated:YES];
     } else {
-      NewPathAndParam *newPathAndParam =  [_router transferForPath:path params:params andCallback:callback];
+        NewPathAndParam *newPathAndParam =  [_router transferForPath:path params:params andCallback:callback];
         if (newPathAndParam) {
             id<CHRDispatchable> clazz = [self handleClassForPath:newPathAndParam.path];
             if (clazz) {
@@ -50,17 +50,15 @@
                    invokeWithPath:newPathAndParam.path
                            params:newPathAndParam.params
                       andCallback:callback];
+                return;
             }
-
-        }else {
-            id<CHRDispatchable> clazz = [self handleClassForPath:path];
-            if (clazz) {
-                [clazz dispatcher:self
-                   invokeWithPath:path
-                           params:params
-                      andCallback:callback];
-            }
-
+        }
+        id<CHRDispatchable> clazz = [self handleClassForPath:path];
+        if (clazz) {
+            [clazz dispatcher:self
+               invokeWithPath:path
+                       params:params
+                  andCallback:callback];
         }
     }
 }

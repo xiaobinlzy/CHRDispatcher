@@ -17,7 +17,7 @@
     self = [super init];
     if (self) {
         NSDictionary *dic = [NSKeyedUnarchiver unarchiveObjectWithFile:[self filePath]];
-        if (dic) {
+        if ([dic isKindOfClass:[NSDictionary class]]) {
             _transferRules = dic;
         }
     }
@@ -31,8 +31,9 @@
 - (void)setTransferRules:(NSDictionary *)transferRules {
     _transferRules = [transferRules copy];
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        BOOL result = [NSKeyedArchiver archiveRootObject:_transferRules toFile:[self filePath]];
-        NSLog(@"%d", result);
+        if (_transferRules) {
+            [NSKeyedArchiver archiveRootObject:_transferRules toFile:[self filePath]];
+        }
     });
 }
 
@@ -42,7 +43,7 @@
     if (rules.count > 0) {
         NewPathAndParam *newPathParam = [[NewPathAndParam alloc] init];
         CHRABRouterModel *model = [rules objectForKey:path];
-        if (model) {
+        if ([model isKindOfClass:[CHRABRouterModel class]]) {
             newPathParam.path = model.targetPath;
             NSDictionary *newParams = [self newParamsFromOriginParams:params andRouterParamArray:model.routerParamArray];
             newPathParam.params = newParams;
