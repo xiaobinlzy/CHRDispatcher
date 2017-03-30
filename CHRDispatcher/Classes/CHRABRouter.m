@@ -16,7 +16,7 @@
 {
     self = [super init];
     if (self) {
-        NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:[self filePath]];
+        NSDictionary *dic = [NSKeyedUnarchiver unarchiveObjectWithFile:[self filePath]];
         if (dic) {
             _transferRules = dic;
         }
@@ -31,7 +31,8 @@
 - (void)setTransferRules:(NSDictionary *)transferRules {
     _transferRules = [transferRules copy];
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        [_transferRules writeToFile:[self filePath] atomically:YES];
+        BOOL result = [NSKeyedArchiver archiveRootObject:_transferRules toFile:[self filePath]];
+        NSLog(@"%d", result);
     });
 }
 
