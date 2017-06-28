@@ -81,6 +81,10 @@
     return [self navigationController] != nil;
 }
 
+- (UIViewController *)topViewController {
+    return [self navigationControllerInTopModal:YES].childViewControllers.lastObject;
+}
+
 - (UINavigationController *)navigationController {
     UIViewController *rootViewController = [(id)[UIApplication sharedApplication].delegate window].rootViewController;
     if ([rootViewController isKindOfClass:UINavigationController.class]) {

@@ -24,6 +24,8 @@
 
 + (instancetype)sharedDispatcher;
 
+@property (strong, nonatomic, readonly) UIViewController *topViewController;
+
 /**
  *  获取栈顶导航控制器
  *
@@ -101,6 +103,7 @@
  *  @return 当前的UINavigationController
  */
 - (UINavigationController *)navigationControllerInTopModal:(BOOL)isInModal;
+
 
 
 
