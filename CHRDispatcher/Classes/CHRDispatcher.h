@@ -13,7 +13,7 @@
 @protocol CHRDispatchable <NSObject>
 
 @required
-+ (void)dispatcher:(CHRDispatcher *)dispatcher
++ (id)dispatcher:(CHRDispatcher *)dispatcher
     invokeWithPath:(NSString *)path
             params:(NSDictionary *)params
        andCallback:(void (^)(NSDictionary *result))callback;
@@ -46,10 +46,9 @@
  *
  *  @param path   path
  *  @param params 调用参数
- *  @param target 回调对象
- *  @param action 回调SEL
+ *  @param callback 回调对象
  */
-- (void)invokeForPath:(NSString *)path
+- (id)invokeForPath:(NSString *)path
                params:(NSDictionary *)params
           andCallback:(void (^)(NSDictionary *result))callback;
 

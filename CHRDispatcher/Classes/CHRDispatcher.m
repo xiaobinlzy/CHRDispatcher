@@ -36,9 +36,7 @@
     [self invokeForPath:path params:params andCallback:nil];
 }
 
-- (void)invokeForPath:(NSString *)path
-               params:(NSDictionary *)params
-          andCallback:(void (^)(NSDictionary *result))callback {
+- (id)invokeForPath:(NSString *)path params:(NSDictionary *)params andCallback:(void (^)(NSDictionary *result))callback {
     if ( [path isEqualToString:@"goBack"] ) {
         [self.navigationController popViewControllerAnimated:YES];
     } else {
@@ -46,21 +44,15 @@
         if (newPathAndParam) {
             id<CHRDispatchable> clazz = [self handleClassForPath:newPathAndParam.path];
             if (clazz) {
-                [clazz dispatcher:self
-                   invokeWithPath:newPathAndParam.path
-                           params:newPathAndParam.params
-                      andCallback:callback];
-                return;
+                return [clazz dispatcher:self invokeWithPath:newPathAndParam.path params:newPathAndParam.params andCallback:callback];
             }
         }
         id<CHRDispatchable> clazz = [self handleClassForPath:path];
         if (clazz) {
-            [clazz dispatcher:self
-               invokeWithPath:path
-                       params:params
-                  andCallback:callback];
+            return [clazz dispatcher:self invokeWithPath:path params:params andCallback:callback];
         }
     }
+    return nil;
 }
 
 - (void)registHandleClass:(Class<CHRDispatchable>)clazz
