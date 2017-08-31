@@ -32,8 +32,8 @@
     return self;
 }
 
-- (void)invokeForPath:(NSString *)path andParams:(NSDictionary *)params {
-    [self invokeForPath:path params:params andCallback:nil];
+- (id)invokeForPath:(NSString *)path andParams:(NSDictionary *)params {
+    return [self invokeForPath:path params:params andCallback:nil];
 }
 
 - (id)invokeForPath:(NSString *)path params:(NSDictionary *)params andCallback:(void (^)(NSDictionary *result))callback {

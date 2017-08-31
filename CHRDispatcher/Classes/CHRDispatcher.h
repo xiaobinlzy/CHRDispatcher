@@ -39,7 +39,7 @@
  *  @param path   path
  *  @param params 调用参数
  */
-- (void)invokeForPath:(NSString *)path andParams:(NSDictionary *)params;
+- (id)invokeForPath:(NSString *)path andParams:(NSDictionary *)params;
 
 /**
  *  通过path、参数调用，并且设置回调target和action
