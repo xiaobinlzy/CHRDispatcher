@@ -5,6 +5,7 @@
 //  Created by xiaobinlzy on 12/09/2016.
 //  Copyright (c) 2016 xiaobinlzy. All rights reserved.
 //
+#import <CHRDispatcher/CHRDispatcher.h>
 
 @import XCTest;
 
@@ -13,6 +14,9 @@
 @end
 
 @implementation Tests
+
+
+
 
 - (void)setUp
 {

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CHRABRouter.h"
+#import "CHRDispatcherMacro.h"
 
 @class CHRDispatcher;
 @protocol CHRDispatchable <NSObject>
