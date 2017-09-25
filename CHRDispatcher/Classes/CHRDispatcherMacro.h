@@ -20,42 +20,7 @@
 #define DISPATCHER_REGIST_PUSH(__path__) \
 DISPATCHER_REGIST(__path__, ^id() { \
     id vc = [[self alloc] init]; \
-    if ([params isKindOfClass:NSDictionary.class]) { \
-        for (NSString *key in params) { \
-            id value = params[key]; \
-            objc_property_t property = class_getProperty(self, [key cStringUsingEncoding:NSUTF8StringEncoding]); \
-            if (property) { \
-                if ([value isKindOfClass:NSString.class]) { \
-                    char *type = property_copyAttributeValue(property, "T"); \
-                    switch (type[0]) { \
-                        case 'f': \
-                        case 'd': \
-                        case 'c': \
-                        case 's': \
-                        case 'i': \
-                        case 'l': \
-                        case 'q': \
-                        case 'I': \
-                        case 'S': \
-                        case 'L': \
-                        case 'Q': \
-                        case 'B': \
-                        { \
-                            NSScanner *scanner = [[NSScanner alloc] initWithString:value]; \
-                            double number; \
-                            [scanner scanDouble:&number]; \
-                            value = [NSNumber numberWithDouble:number]; \
-                        } \
-                            break; \
-                    } \
-                    if (type) { \
-                        free(type); \
-                    } \
-                } \
-                [self setValue:value forKey:key]; \
-            } \
-        } \
-    } \
+    [vc dispatcher_setValuesForKeys:params]; \
     [dispatcher pushViewController:vc]; \
     return vc; \
 })

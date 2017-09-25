@@ -7,78 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20CA08ACA15B4908E767AD3C320AAB97 /* Pods-CHRDispatcher_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B215B64DFB7220F40AC2C8388707CF /* Pods-CHRDispatcher_Tests-dummy.m */; };
-		486839A625FCE98B943F342631DC6888 /* NewPathAndParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0D9B22C5016336347C8DFB755DD8B5 /* NewPathAndParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5574C97ADD83BAF5BD27B61ED197888D /* CHRDispatcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 986515480FAD9B1D636D60B59D3B776F /* CHRDispatcher-dummy.m */; };
-		67B604CDED328F036B631661956723CE /* CHRABRouterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B57DA53ACBBE5D68279E96D436EC1C1E /* CHRABRouterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		792FD1B02E57B5D37EE005E7EEC95255 /* CHRDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DBD985602417E3236605AB75649C8D /* CHRDispatcher.m */; };
-		927C3F3821661A1FF07FAB6A32C253B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		9B0F1717EC0939D10802CCBB6DD8124E /* CHRABRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 40936A36F5D98EBC44D9BE40BE30E238 /* CHRABRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6CD617501ADDBC4DC1091D643A5D378 /* CHRABRouterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80283FA6FFE8979076F21FA2A6B7ACCE /* CHRABRouterModel.m */; };
-		B0B4E993F39A3A59206D5D073525F0EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		E00C4091763597A6DC17B3ABA1597BBA /* CHRABRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 016B784612CF3AE7FB8703C546DED9C5 /* CHRABRouter.m */; };
-		E3B504CDEDEA9F38437311064EA6B389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		F8A24F28EF6B5870E7F96D90AC547B2E /* CHRDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA98890046AFB3EE647DB9A97A55DF0 /* CHRDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD677D76988A4A0AA054A8A20597683A /* NewPathAndParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A1186E3C469E783D882A32CD20B20DD0 /* NewPathAndParam.m */; };
+		02287207A9B927E0D64CE86DDE4D54A6 /* UIViewController+CHRDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A9B78EDFF9DC9773956BF133E0E4EA /* UIViewController+CHRDispatcher.m */; };
+		0376368558B892E3BD2590B4E706C9A9 /* Pods-CHRDispatcher_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDFEE0F334B5D4DF5B4267E6AD72BE3 /* Pods-CHRDispatcher_Example-dummy.m */; };
+		4CA73E8468A8A635F0C181E64D99E923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		551F610E047A1C9F39DE73F62C5AA37A /* CHRDispatcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8088A2D37A856A5A928528640D7ECE4B /* CHRDispatcher-dummy.m */; };
+		75F1A73A36F95ECEED1CC21F81250AEF /* CHRDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 50722AD06583ED5CA9BCCB0F8BD41BCB /* CHRDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7735C6F7E571C364A621F97DCD49DFFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8340CBDD660517EE1C07AB8A25DB11E3 /* CHRABRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 873C360493D602527566F6D3A4CBBEAB /* CHRABRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A5FC6B136E7A668C6E98E43BE264BD /* CHRDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A25E8052DF38367DC44EEED206E6A80E /* CHRDispatcher.m */; };
+		96FFF54D34357C8CD9E8E8887E21FB87 /* NewPathAndParam.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF5252CB8C7B405CF2723AD7F1FFA52 /* NewPathAndParam.m */; };
+		A7D3A2034D1679F36A0A9889E33CFBD6 /* CHRABRouterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E6F5CB2AD574395882B8E05D2B9291 /* CHRABRouterModel.m */; };
+		AAC898BFF0AF6ECE7BFF04AA92A135D1 /* NewPathAndParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 937288A487629315AD0526B37B06D0BA /* NewPathAndParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B47DB1F95DA35BAE507FBBDDF15C4CDF /* CHRDispatcherMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EA3EBC886E459EE5143A1A503A83B3 /* CHRDispatcherMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54C2D54CD94103EDC946196B441FD53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		B5EE849059C40965CD08D7772804A3C9 /* UIViewController+CHRDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E77FA541F3129F8245D2BCB2A9C0C7A /* UIViewController+CHRDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C43C42ABA03CA62BFA8AEA360ED896DD /* CHRABRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9E2922BB1432AECCB76D73B50CA223 /* CHRABRouter.m */; };
+		EBD5C7440EA77161EBF93C9BE8CE9A89 /* CHRABRouterModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C49BCB98EE54072EAA58FAD015D628D /* CHRABRouterModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2651B75588A79B9ACE1AB0B6D4CAB595 /* PBXContainerItemProxy */ = {
+		913EB3E94666809C3EBE1ECA3E2846C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C93FC2369892A2791DA75274B0F52868;
+			remoteGlobalIDString = E9FA4E0E7A9252B3347ACB4DFA7B6D1A;
 			remoteInfo = CHRDispatcher;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		016B784612CF3AE7FB8703C546DED9C5 /* CHRABRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHRABRouter.m; path = CHRDispatcher/Classes/CHRABRouter.m; sourceTree = "<group>"; };
-		1B53E29E4FEEDB28343D00D252DB5E84 /* Pods-CHRDispatcher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHRDispatcher_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2C0D9B22C5016336347C8DFB755DD8B5 /* NewPathAndParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewPathAndParam.h; path = CHRDispatcher/Classes/NewPathAndParam.h; sourceTree = "<group>"; };
-		32EA46BF9ACD3AB2474261136D4C91B3 /* CHRDispatcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHRDispatcher-prefix.pch"; sourceTree = "<group>"; };
-		34B1EAD1CB81162963AAC3160FEE2FF4 /* Pods-CHRDispatcher_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHRDispatcher_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		34B215B64DFB7220F40AC2C8388707CF /* Pods-CHRDispatcher_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHRDispatcher_Tests-dummy.m"; sourceTree = "<group>"; };
-		40936A36F5D98EBC44D9BE40BE30E238 /* CHRABRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHRABRouter.h; path = CHRDispatcher/Classes/CHRABRouter.h; sourceTree = "<group>"; };
-		534D873CA5F8A5800FAE036865C92636 /* CHRDispatcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHRDispatcher.xcconfig; sourceTree = "<group>"; };
-		686935F951C97C0B382075BED2BB297A /* Pods-CHRDispatcher_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHRDispatcher_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		68DBD985602417E3236605AB75649C8D /* CHRDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHRDispatcher.m; path = CHRDispatcher/Classes/CHRDispatcher.m; sourceTree = "<group>"; };
-		748235EACDE0656690F4AD14308DB814 /* Pods-CHRDispatcher_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHRDispatcher_Tests-resources.sh"; sourceTree = "<group>"; };
-		80283FA6FFE8979076F21FA2A6B7ACCE /* CHRABRouterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHRABRouterModel.m; path = CHRDispatcher/Classes/CHRABRouterModel.m; sourceTree = "<group>"; };
+		15C3259875C9733E056BD5F4A2684DC9 /* libCHRDispatcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCHRDispatcher.a; path = libCHRDispatcher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AD15BFA39AB80D975B8B6BD2196303E /* Pods-CHRDispatcher_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHRDispatcher_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		247259166B64C7ADFDC0C796F224F805 /* Pods-CHRDispatcher_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHRDispatcher_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2E77FA541F3129F8245D2BCB2A9C0C7A /* UIViewController+CHRDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CHRDispatcher.h"; path = "CHRDispatcher/Classes/UIViewController+CHRDispatcher.h"; sourceTree = "<group>"; };
+		2EDFEE0F334B5D4DF5B4267E6AD72BE3 /* Pods-CHRDispatcher_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHRDispatcher_Example-dummy.m"; sourceTree = "<group>"; };
+		3393F4056EA07D8B66CB62630780133C /* Pods-CHRDispatcher_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHRDispatcher_Example-resources.sh"; sourceTree = "<group>"; };
+		45E6F5CB2AD574395882B8E05D2B9291 /* CHRABRouterModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHRABRouterModel.m; path = CHRDispatcher/Classes/CHRABRouterModel.m; sourceTree = "<group>"; };
+		50722AD06583ED5CA9BCCB0F8BD41BCB /* CHRDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHRDispatcher.h; path = CHRDispatcher/Classes/CHRDispatcher.h; sourceTree = "<group>"; };
+		62A9B78EDFF9DC9773956BF133E0E4EA /* UIViewController+CHRDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CHRDispatcher.m"; path = "CHRDispatcher/Classes/UIViewController+CHRDispatcher.m"; sourceTree = "<group>"; };
+		69EA3EBC886E459EE5143A1A503A83B3 /* CHRDispatcherMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHRDispatcherMacro.h; path = CHRDispatcher/Classes/CHRDispatcherMacro.h; sourceTree = "<group>"; };
+		7C49BCB98EE54072EAA58FAD015D628D /* CHRABRouterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHRABRouterModel.h; path = CHRDispatcher/Classes/CHRABRouterModel.h; sourceTree = "<group>"; };
+		8088A2D37A856A5A928528640D7ECE4B /* CHRDispatcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHRDispatcher-dummy.m"; sourceTree = "<group>"; };
+		873C360493D602527566F6D3A4CBBEAB /* CHRABRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHRABRouter.h; path = CHRDispatcher/Classes/CHRABRouter.h; sourceTree = "<group>"; };
+		937288A487629315AD0526B37B06D0BA /* NewPathAndParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NewPathAndParam.h; path = CHRDispatcher/Classes/NewPathAndParam.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		986515480FAD9B1D636D60B59D3B776F /* CHRDispatcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHRDispatcher-dummy.m"; sourceTree = "<group>"; };
-		A1186E3C469E783D882A32CD20B20DD0 /* NewPathAndParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NewPathAndParam.m; path = CHRDispatcher/Classes/NewPathAndParam.m; sourceTree = "<group>"; };
-		B57DA53ACBBE5D68279E96D436EC1C1E /* CHRABRouterModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHRABRouterModel.h; path = CHRDispatcher/Classes/CHRABRouterModel.h; sourceTree = "<group>"; };
+		A25E8052DF38367DC44EEED206E6A80E /* CHRDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHRDispatcher.m; path = CHRDispatcher/Classes/CHRDispatcher.m; sourceTree = "<group>"; };
+		A643FBF0622A5D7A87145E7935DD3FB9 /* CHRDispatcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHRDispatcher-prefix.pch"; sourceTree = "<group>"; };
+		B151E95CC5AA3CD2F399A1C7024168BA /* Pods-CHRDispatcher_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHRDispatcher_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BFA98890046AFB3EE647DB9A97A55DF0 /* CHRDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHRDispatcher.h; path = CHRDispatcher/Classes/CHRDispatcher.h; sourceTree = "<group>"; };
-		C5DCD50F5DBC8CF5EC5707E225371EE2 /* Pods-CHRDispatcher_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHRDispatcher_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CE1B075D4094BA17B09EA529E03697BE /* Pods-CHRDispatcher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHRDispatcher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF9E2922BB1432AECCB76D73B50CA223 /* CHRABRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHRABRouter.m; path = CHRDispatcher/Classes/CHRABRouter.m; sourceTree = "<group>"; };
+		C07A7B99527EB3355810D415A1D10DD8 /* Pods-CHRDispatcher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHRDispatcher_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CAF5252CB8C7B405CF2723AD7F1FFA52 /* NewPathAndParam.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NewPathAndParam.m; path = CHRDispatcher/Classes/NewPathAndParam.m; sourceTree = "<group>"; };
+		CF1F838FC55262C37CC6C87471419777 /* Pods-CHRDispatcher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHRDispatcher_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D1C34444F42344C91AE9421A681D6B05 /* CHRDispatcher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHRDispatcher.xcconfig; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E38C896FE4CC627811AB4BB33FA4C4D4 /* libPods-CHRDispatcher_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CHRDispatcher_Tests.a"; path = "libPods-CHRDispatcher_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8F2A630E128612F05F30F1D97C2E41F /* libCHRDispatcher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCHRDispatcher.a; path = libCHRDispatcher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F029C2EDE9755AB74EFDD7375625794E /* libPods-CHRDispatcher_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CHRDispatcher_Example.a"; path = "libPods-CHRDispatcher_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1FB983588A0DC42B459F994D4E1235B0 /* Frameworks */ = {
+		5CF61EB86EFF216DD0BBE359222A60EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B504CDEDEA9F38437311064EA6B389 /* Foundation.framework in Frameworks */,
+				7735C6F7E571C364A621F97DCD49DFFC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AA028496DD4FED0B85E0B05596B74A5 /* Frameworks */ = {
+		F06D66C3EDCDB2E3A3DCC643005587AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				927C3F3821661A1FF07FAB6A32C253B6 /* Foundation.framework in Frameworks */,
-				B0B4E993F39A3A59206D5D073525F0EC /* UIKit.framework in Frameworks */,
+				4CA73E8468A8A635F0C181E64D99E923 /* Foundation.framework in Frameworks */,
+				B54C2D54CD94103EDC946196B441FD53 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06D0B7B3846CD4FFD03D691FB51FBAA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C34444F42344C91AE9421A681D6B05 /* CHRDispatcher.xcconfig */,
+				8088A2D37A856A5A928528640D7ECE4B /* CHRDispatcher-dummy.m */,
+				A643FBF0622A5D7A87145E7935DD3FB9 /* CHRDispatcher-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHRDispatcher";
+			sourceTree = "<group>";
+		};
+		22854C4707DAB7FE4B3CBDAE5A277492 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				873C360493D602527566F6D3A4CBBEAB /* CHRABRouter.h */,
+				BF9E2922BB1432AECCB76D73B50CA223 /* CHRABRouter.m */,
+				7C49BCB98EE54072EAA58FAD015D628D /* CHRABRouterModel.h */,
+				45E6F5CB2AD574395882B8E05D2B9291 /* CHRABRouterModel.m */,
+				50722AD06583ED5CA9BCCB0F8BD41BCB /* CHRDispatcher.h */,
+				A25E8052DF38367DC44EEED206E6A80E /* CHRDispatcher.m */,
+				69EA3EBC886E459EE5143A1A503A83B3 /* CHRDispatcherMacro.h */,
+				937288A487629315AD0526B37B06D0BA /* NewPathAndParam.h */,
+				CAF5252CB8C7B405CF2723AD7F1FFA52 /* NewPathAndParam.m */,
+				2E77FA541F3129F8245D2BCB2A9C0C7A /* UIViewController+CHRDispatcher.h */,
+				62A9B78EDFF9DC9773956BF133E0E4EA /* UIViewController+CHRDispatcher.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		318ABEB8E6F5F3A02ACEF1E1B65996DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE8AB953751E6A3A9109315702D5D61A /* Pods-CHRDispatcher_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,134 +139,102 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		56785DB9E55E0C0A61B4F7543344FB7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C3259875C9733E056BD5F4A2684DC9 /* libCHRDispatcher.a */,
+				F029C2EDE9755AB74EFDD7375625794E /* libPods-CHRDispatcher_Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7887332E6DD500DEF0C3B086E442B31C /* CHRDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				22854C4707DAB7FE4B3CBDAE5A277492 /* Source */,
+				06D0B7B3846CD4FFD03D691FB51FBAA4 /* Support Files */,
+			);
+			name = CHRDispatcher;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				7E9B0148A17D1C2FB88009D0E09C3B54 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				EB6CF5FA49F4924AB50BC81B96C90916 /* Products */,
-				EB5F986067B375BE1AA17B15C0797A50 /* Targets Support Files */,
+				56785DB9E55E0C0A61B4F7543344FB7A /* Products */,
+				318ABEB8E6F5F3A02ACEF1E1B65996DD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		7E9B0148A17D1C2FB88009D0E09C3B54 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FFD0404FFF733FD91B7095789724DAE7 /* CHRDispatcher */,
+				7887332E6DD500DEF0C3B086E442B31C /* CHRDispatcher */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9CAD31E1C4FFE46B736A62F990322A7E /* Support Files */ = {
+		CE8AB953751E6A3A9109315702D5D61A /* Pods-CHRDispatcher_Example */ = {
 			isa = PBXGroup;
 			children = (
-				534D873CA5F8A5800FAE036865C92636 /* CHRDispatcher.xcconfig */,
-				986515480FAD9B1D636D60B59D3B776F /* CHRDispatcher-dummy.m */,
-				32EA46BF9ACD3AB2474261136D4C91B3 /* CHRDispatcher-prefix.pch */,
+				1AD15BFA39AB80D975B8B6BD2196303E /* Pods-CHRDispatcher_Example-acknowledgements.markdown */,
+				B151E95CC5AA3CD2F399A1C7024168BA /* Pods-CHRDispatcher_Example-acknowledgements.plist */,
+				2EDFEE0F334B5D4DF5B4267E6AD72BE3 /* Pods-CHRDispatcher_Example-dummy.m */,
+				247259166B64C7ADFDC0C796F224F805 /* Pods-CHRDispatcher_Example-frameworks.sh */,
+				3393F4056EA07D8B66CB62630780133C /* Pods-CHRDispatcher_Example-resources.sh */,
+				C07A7B99527EB3355810D415A1D10DD8 /* Pods-CHRDispatcher_Example.debug.xcconfig */,
+				CF1F838FC55262C37CC6C87471419777 /* Pods-CHRDispatcher_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CHRDispatcher";
-			sourceTree = "<group>";
-		};
-		B5B94BC5E1CAEAB661F493753F7C179C /* Pods-CHRDispatcher_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				686935F951C97C0B382075BED2BB297A /* Pods-CHRDispatcher_Tests-acknowledgements.markdown */,
-				C5DCD50F5DBC8CF5EC5707E225371EE2 /* Pods-CHRDispatcher_Tests-acknowledgements.plist */,
-				34B215B64DFB7220F40AC2C8388707CF /* Pods-CHRDispatcher_Tests-dummy.m */,
-				34B1EAD1CB81162963AAC3160FEE2FF4 /* Pods-CHRDispatcher_Tests-frameworks.sh */,
-				748235EACDE0656690F4AD14308DB814 /* Pods-CHRDispatcher_Tests-resources.sh */,
-				CE1B075D4094BA17B09EA529E03697BE /* Pods-CHRDispatcher_Tests.debug.xcconfig */,
-				1B53E29E4FEEDB28343D00D252DB5E84 /* Pods-CHRDispatcher_Tests.release.xcconfig */,
-			);
-			name = "Pods-CHRDispatcher_Tests";
-			path = "Target Support Files/Pods-CHRDispatcher_Tests";
-			sourceTree = "<group>";
-		};
-		E988597E0A21168F8F820FEFD165F641 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				40936A36F5D98EBC44D9BE40BE30E238 /* CHRABRouter.h */,
-				016B784612CF3AE7FB8703C546DED9C5 /* CHRABRouter.m */,
-				B57DA53ACBBE5D68279E96D436EC1C1E /* CHRABRouterModel.h */,
-				80283FA6FFE8979076F21FA2A6B7ACCE /* CHRABRouterModel.m */,
-				BFA98890046AFB3EE647DB9A97A55DF0 /* CHRDispatcher.h */,
-				68DBD985602417E3236605AB75649C8D /* CHRDispatcher.m */,
-				2C0D9B22C5016336347C8DFB755DD8B5 /* NewPathAndParam.h */,
-				A1186E3C469E783D882A32CD20B20DD0 /* NewPathAndParam.m */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
-		EB5F986067B375BE1AA17B15C0797A50 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B5B94BC5E1CAEAB661F493753F7C179C /* Pods-CHRDispatcher_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EB6CF5FA49F4924AB50BC81B96C90916 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F8F2A630E128612F05F30F1D97C2E41F /* libCHRDispatcher.a */,
-				E38C896FE4CC627811AB4BB33FA4C4D4 /* libPods-CHRDispatcher_Tests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		FFD0404FFF733FD91B7095789724DAE7 /* CHRDispatcher */ = {
-			isa = PBXGroup;
-			children = (
-				E988597E0A21168F8F820FEFD165F641 /* Source */,
-				9CAD31E1C4FFE46B736A62F990322A7E /* Support Files */,
-			);
-			name = CHRDispatcher;
-			path = ../..;
+			name = "Pods-CHRDispatcher_Example";
+			path = "Target Support Files/Pods-CHRDispatcher_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E7FB48556CDA17468FB387AB6B179AF6 /* Headers */ = {
+		B2FDDD31BD0972B97145C754710D0893 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0F1717EC0939D10802CCBB6DD8124E /* CHRABRouter.h in Headers */,
-				67B604CDED328F036B631661956723CE /* CHRABRouterModel.h in Headers */,
-				F8A24F28EF6B5870E7F96D90AC547B2E /* CHRDispatcher.h in Headers */,
-				486839A625FCE98B943F342631DC6888 /* NewPathAndParam.h in Headers */,
+				8340CBDD660517EE1C07AB8A25DB11E3 /* CHRABRouter.h in Headers */,
+				EBD5C7440EA77161EBF93C9BE8CE9A89 /* CHRABRouterModel.h in Headers */,
+				75F1A73A36F95ECEED1CC21F81250AEF /* CHRDispatcher.h in Headers */,
+				B47DB1F95DA35BAE507FBBDDF15C4CDF /* CHRDispatcherMacro.h in Headers */,
+				AAC898BFF0AF6ECE7BFF04AA92A135D1 /* NewPathAndParam.h in Headers */,
+				B5EE849059C40965CD08D7772804A3C9 /* UIViewController+CHRDispatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8F15DD87AF084B6B24920E0B8A95D5D0 /* Pods-CHRDispatcher_Tests */ = {
+		C4D8CA68666E5FC9797F8C865423270D /* Pods-CHRDispatcher_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 900CBC470543CAB355A7681BE7DBDC5D /* Build configuration list for PBXNativeTarget "Pods-CHRDispatcher_Tests" */;
+			buildConfigurationList = 42B5BE7328387F63DDE616A6C7DFA39B /* Build configuration list for PBXNativeTarget "Pods-CHRDispatcher_Example" */;
 			buildPhases = (
-				ADDE9D3B43B7FC9B1309E0EC5F717574 /* Sources */,
-				1FB983588A0DC42B459F994D4E1235B0 /* Frameworks */,
+				A07122B1F1DA05E8363075EB88009446 /* Sources */,
+				5CF61EB86EFF216DD0BBE359222A60EA /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F280B8ED7424594ABAC8C0E66E37F738 /* PBXTargetDependency */,
+				70E30325A934A77C4132D2360A96C841 /* PBXTargetDependency */,
 			);
-			name = "Pods-CHRDispatcher_Tests";
-			productName = "Pods-CHRDispatcher_Tests";
-			productReference = E38C896FE4CC627811AB4BB33FA4C4D4 /* libPods-CHRDispatcher_Tests.a */;
+			name = "Pods-CHRDispatcher_Example";
+			productName = "Pods-CHRDispatcher_Example";
+			productReference = F029C2EDE9755AB74EFDD7375625794E /* libPods-CHRDispatcher_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C93FC2369892A2791DA75274B0F52868 /* CHRDispatcher */ = {
+		E9FA4E0E7A9252B3347ACB4DFA7B6D1A /* CHRDispatcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41C0B021D604E79244FD6258FB621C64 /* Build configuration list for PBXNativeTarget "CHRDispatcher" */;
+			buildConfigurationList = C93C23E2559D3D41280F3724C9639F92 /* Build configuration list for PBXNativeTarget "CHRDispatcher" */;
 			buildPhases = (
-				D8A9720C3783D611DBC117F64057EF42 /* Sources */,
-				2AA028496DD4FED0B85E0B05596B74A5 /* Frameworks */,
-				E7FB48556CDA17468FB387AB6B179AF6 /* Headers */,
+				CC37E1FAA9845E5FDD8D43575B5388A1 /* Sources */,
+				F06D66C3EDCDB2E3A3DCC643005587AE /* Frameworks */,
+				B2FDDD31BD0972B97145C754710D0893 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -231,7 +242,7 @@
 			);
 			name = CHRDispatcher;
 			productName = CHRDispatcher;
-			productReference = F8F2A630E128612F05F30F1D97C2E41F /* libCHRDispatcher.a */;
+			productReference = 15C3259875C9733E056BD5F4A2684DC9 /* libCHRDispatcher.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -251,98 +262,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EB6CF5FA49F4924AB50BC81B96C90916 /* Products */;
+			productRefGroup = 56785DB9E55E0C0A61B4F7543344FB7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C93FC2369892A2791DA75274B0F52868 /* CHRDispatcher */,
-				8F15DD87AF084B6B24920E0B8A95D5D0 /* Pods-CHRDispatcher_Tests */,
+				E9FA4E0E7A9252B3347ACB4DFA7B6D1A /* CHRDispatcher */,
+				C4D8CA68666E5FC9797F8C865423270D /* Pods-CHRDispatcher_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ADDE9D3B43B7FC9B1309E0EC5F717574 /* Sources */ = {
+		A07122B1F1DA05E8363075EB88009446 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CA08ACA15B4908E767AD3C320AAB97 /* Pods-CHRDispatcher_Tests-dummy.m in Sources */,
+				0376368558B892E3BD2590B4E706C9A9 /* Pods-CHRDispatcher_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8A9720C3783D611DBC117F64057EF42 /* Sources */ = {
+		CC37E1FAA9845E5FDD8D43575B5388A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E00C4091763597A6DC17B3ABA1597BBA /* CHRABRouter.m in Sources */,
-				A6CD617501ADDBC4DC1091D643A5D378 /* CHRABRouterModel.m in Sources */,
-				5574C97ADD83BAF5BD27B61ED197888D /* CHRDispatcher-dummy.m in Sources */,
-				792FD1B02E57B5D37EE005E7EEC95255 /* CHRDispatcher.m in Sources */,
-				FD677D76988A4A0AA054A8A20597683A /* NewPathAndParam.m in Sources */,
+				C43C42ABA03CA62BFA8AEA360ED896DD /* CHRABRouter.m in Sources */,
+				A7D3A2034D1679F36A0A9889E33CFBD6 /* CHRABRouterModel.m in Sources */,
+				551F610E047A1C9F39DE73F62C5AA37A /* CHRDispatcher-dummy.m in Sources */,
+				84A5FC6B136E7A668C6E98E43BE264BD /* CHRDispatcher.m in Sources */,
+				96FFF54D34357C8CD9E8E8887E21FB87 /* NewPathAndParam.m in Sources */,
+				02287207A9B927E0D64CE86DDE4D54A6 /* UIViewController+CHRDispatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F280B8ED7424594ABAC8C0E66E37F738 /* PBXTargetDependency */ = {
+		70E30325A934A77C4132D2360A96C841 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CHRDispatcher;
-			target = C93FC2369892A2791DA75274B0F52868 /* CHRDispatcher */;
-			targetProxy = 2651B75588A79B9ACE1AB0B6D4CAB595 /* PBXContainerItemProxy */;
+			target = E9FA4E0E7A9252B3347ACB4DFA7B6D1A /* CHRDispatcher */;
+			targetProxy = 913EB3E94666809C3EBE1ECA3E2846C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15B29BFE6E5108B539BF9AFB71BAACAD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534D873CA5F8A5800FAE036865C92636 /* CHRDispatcher.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CHRDispatcher/CHRDispatcher-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Debug;
-		};
-		4AEE6C5DAA955E58850D5F2FE5FC7047 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534D873CA5F8A5800FAE036865C92636 /* CHRDispatcher.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CHRDispatcher/CHRDispatcher-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-			};
-			name = Release;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -378,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -386,9 +350,32 @@
 			};
 			name = Release;
 		};
-		921CCCF81853F8E02A95B7B3793AD72F /* Debug */ = {
+		277BC9652C98D049B923592FCFCC6E35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE1B075D4094BA17B09EA529E03697BE /* Pods-CHRDispatcher_Tests.debug.xcconfig */;
+			baseConfigurationReference = CF1F838FC55262C37CC6C87471419777 /* Pods-CHRDispatcher_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		53708B7C4E7183ACAD76FFDA5B265829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C34444F42344C91AE9421A681D6B05 /* CHRDispatcher.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -396,7 +383,31 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				GCC_PREFIX_HEADER = "Target Support Files/CHRDispatcher/CHRDispatcher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		65514A45DD27FF64C2F7F514399DD095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07A7B99527EB3355810D415A1D10DD8 /* Pods-CHRDispatcher_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -409,7 +420,31 @@
 			};
 			name = Debug;
 		};
-		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+		8F5ED87355F3D80B5C9255DAB1FD020A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C34444F42344C91AE9421A681D6B05 /* CHRDispatcher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CHRDispatcher/CHRDispatcher-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -449,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -458,55 +493,32 @@
 			};
 			name = Debug;
 		};
-		DEC97305D3839B6229D406C09EED522B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B53E29E4FEEDB28343D00D252DB5E84 /* Pods-CHRDispatcher_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41C0B021D604E79244FD6258FB621C64 /* Build configuration list for PBXNativeTarget "CHRDispatcher" */ = {
+		42B5BE7328387F63DDE616A6C7DFA39B /* Build configuration list for PBXNativeTarget "Pods-CHRDispatcher_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15B29BFE6E5108B539BF9AFB71BAACAD /* Debug */,
-				4AEE6C5DAA955E58850D5F2FE5FC7047 /* Release */,
+				65514A45DD27FF64C2F7F514399DD095 /* Debug */,
+				277BC9652C98D049B923592FCFCC6E35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		900CBC470543CAB355A7681BE7DBDC5D /* Build configuration list for PBXNativeTarget "Pods-CHRDispatcher_Tests" */ = {
+		C93C23E2559D3D41280F3724C9639F92 /* Build configuration list for PBXNativeTarget "CHRDispatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				921CCCF81853F8E02A95B7B3793AD72F /* Debug */,
-				DEC97305D3839B6229D406C09EED522B /* Release */,
+				53708B7C4E7183ACAD76FFDA5B265829 /* Debug */,
+				8F5ED87355F3D80B5C9255DAB1FD020A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
