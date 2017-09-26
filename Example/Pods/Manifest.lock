@@ -1,5 +1,5 @@
 PODS:
-  - CHRDispatcher/Source (0.2.2)
+  - CHRDispatcher/Source (0.2.3)
 
 DEPENDENCIES:
   - CHRDispatcher/Source (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CHRDispatcher: b173802f3dd18985faeafa1e1ee3b4f4f2f9cb62
+  CHRDispatcher: 7f1896d68578b41d01c3d5889322c8bad13381a4
 
 PODFILE CHECKSUM: 4235d565f79a783512f16e39d5f4703d4a428d75
 
