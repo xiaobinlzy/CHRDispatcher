@@ -15,7 +15,7 @@
 
 @implementation CHRViewController
 
-DISPATCHER_REGIST_PUSH(@"path")
+dispatcher_regist_push(@"path", @"path1", @"path3", @"path4")
 
 - (void)viewDidLoad {
     [super viewDidLoad];

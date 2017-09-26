@@ -1,6 +1,6 @@
 {
   "name": "CHRDispatcher",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "Dispatcher是统一调用（跳转）组件。",
   "description": "Dispatcher是统一调用（跳转）组件，用于动态隐式的通讯、跳转、调用。",
   "homepage": "https://github.com/xiaobinlzy/CHRDispatcher",
@@ -14,7 +14,7 @@
   "default_subspecs": "Binary",
   "source": {
     "git": "https://github.com/xiaobinlzy/CHRDispatcher.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "public_header_files": "CHRDispatcher/Classes/*.h",
   "source_files": "CHRDispatcher/Classes/*.h",
